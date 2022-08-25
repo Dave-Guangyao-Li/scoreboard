@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 385px;
+    width: 575px;
+    display: flex;
+
+    background: #1B244A;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.home-title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.guest-title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    right: 86px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.home-score {
+    
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    border-radius: 5px;
+    background-color: #080001;
+
+}
+
+.guest-score {
+
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    border-radius: 5px;
+    background-color: #080001;
+
+}
+
+.home-score-text {
+    /* home-points-text */
+
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+.guest-score-text {
+    /* home-points-text */
+
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+    background-color: blue;
+}
